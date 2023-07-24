@@ -26,12 +26,12 @@ insert into PAYMENTTYPE(name) values ( 'DAILY' );
 insert into PAYMENTTYPE(name) values ( 'WEEKLY' );
 insert into PAYMENTTYPE(name) values ( 'MONTHLY' );
 
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 2, 1, 300, '2020-07-02 17:45:36', 1 );
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 3, 4, 300, '2020-07-02 17:45:36', 1 );
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 2, 7, 300, '2020-07-02 17:45:36', 1 );
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 1, 5, 300, '2020-07-02 17:45:36', 1 );
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 3, 10, 300, '2020-07-02 17:45:36', 1 );
-insert into payment(type_id, student_id, amount, payment_date, type_id) values ( 1, 9, 300, '2020-07-02 17:45:36', 1 );
+insert into payment(type_id, student_id, amount, payment_date) values ( 2, 1, 300, '2020-07-02 17:45:36' );
+insert into payment(type_id, student_id, amount, payment_date) values ( 3, 4, 300, '2020-07-02 17:45:36' );
+insert into payment(type_id, student_id, amount, payment_date) values ( 2, 7, 300, '2020-07-02 17:45:36' );
+insert into payment(type_id, student_id, amount, payment_date) values ( 1, 5, 300, '2020-07-02 17:45:36' );
+insert into payment(type_id, student_id, amount, payment_date) values ( 3, 10, 300, '2020-07-02 17:45:36' );
+insert into payment(type_id, student_id, amount, payment_date) values ( 1, 9, 300, '2020-07-02 17:45:36' );
 
 insert into mark(student_id, subject_id, mark) values ( 2, 1, 8 );
 insert into mark(student_id, subject_id, mark) values ( 4, 4, 5 );
